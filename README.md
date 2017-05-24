@@ -1,4 +1,4 @@
-# migracion de datos de odoo-l10n_co a trytond-account
+# MODULO DE LOCALIZACION PARA COLOMBIA PLATAFORMA ERP TRYTON
 
 # INSTALACION
 
