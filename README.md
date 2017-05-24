@@ -1,11 +1,31 @@
 # MODULO DE LOCALIZACION PARA COLOMBIA PLATAFORMA ERP TRYTON
 
+se hace una ``importación`` de [odoo l10n_co](https://github.com/buguelos/odoo/tree/master/addons/l10n_co/data)
 # INSTALACION
 
 clonar el repositorio dentro de la carpeta **modules** de tryton, luego activar el modulo.
 unas activado, dar en **Contabilidad/Plantillas/Crear plan contable desde plantillas**
 
+# REFERENCIAS
 
+  * http://www.puc.com.co
+
+
+# TODO
+
+tryton para cuenta define los siguientes tipos:
+  * A cobrar
+  * A pagar
+  * Existencias
+  * Ingresos
+  * Gastos
+  * Otros
+  * Vista : vista es para agrupar cuentas
+
+evaluar el correcto funcionamiento de las cuentas y los impuestos.
+
+
+# DESARROLLO 
 
 ## odoo
 
@@ -33,20 +53,5 @@ Subcuenta:
 
 Las clases 1, 2 y 3 comprenden las cuentas que conforman el balance general; las clases 4, 5, 6 y 7 corresponden a las cuentas del estado de ganancias o pérdidas o estado de resultados y las clases 8 y 9 detallan las cuentas de orden.
 
-# TODO
 
-tryton para cuenta define los siguientes tipos:
-  * A cobrar
-  * A pagar
-  * Existencias
-  * Ingresos
-  * Gastos
-  * Otros
-  * Vista : vista es para agrupar cuentas
-
-evaluar el correcto funcionamiento de las cuentas y los impuestos.
-
-# REFERENCIAS
-
-  * http://www.puc.com.co
 
