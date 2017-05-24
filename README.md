@@ -4,8 +4,18 @@ se hace una ``importación`` de [odoo l10n_co](https://github.com/buguelos/odoo/
 
 # INSTALACION
 
-clonar el repositorio dentro de la carpeta **modules** de tryton, luego activar el modulo.
-unas activado, dar en **Contabilidad/Plantillas/Crear plan contable desde plantillas**
+clonar el repositorio dentro de la carpeta **modules** de tryton:
+~~~
+$ cd trytond/modules ; git clone https://repo.neurotec.co/CODOO/account_co
+~~~
+
+luego activar el modulo:
+
+~~~
+$ trytond-admin -c <tryton.cfg> -d <database> -u account_co
+~~~
+
+una ves activado, dar en **Contabilidad/Plantillas/Crear plan contable desde plantillas**.
 
 # REFERENCIAS
 
