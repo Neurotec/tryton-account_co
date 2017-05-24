@@ -1,6 +1,7 @@
 # MODULO DE LOCALIZACION PARA COLOMBIA PLATAFORMA ERP TRYTON
 
 se hace una ``importación`` de [odoo l10n_co](https://github.com/buguelos/odoo/tree/master/addons/l10n_co/data)
+
 # INSTALACION
 
 clonar el repositorio dentro de la carpeta **modules** de tryton, luego activar el modulo.
