@@ -1,5 +1,12 @@
 # migracion de datos de odoo-l10n_co a trytond-account
 
+# INSTALACION
+
+clonar el repositorio dentro de la carpeta **modules** de tryton, luego activar el modulo.
+unas activado, dar en **Contabilidad/Plantillas/Crear plan contable desde plantillas**
+
+
+
 ## odoo
 
 - liquility, caja general
@@ -36,7 +43,9 @@ tryton para cuenta define los siguientes tipos:
   * Gastos
   * Otros
   * Vista : vista es para agrupar cuentas
-  
+
+evaluar el correcto funcionamiento de las cuentas y los impuestos.
+
 # REFERENCIAS
 
   * http://www.puc.com.co
