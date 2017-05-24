@@ -18,7 +18,7 @@
       <field name="sequence" eval="10"/>
       <field name="parent" ref="co" />
     </record>
-    
+  
     <record model="account.account.type.template" id="account_type_receivable">
       <field name="name">Por Cobrar</field>
       <field name="sequence" eval="10"/>
@@ -135,6 +135,40 @@
       <field name="code">9*</field>	
       <field name="kind">view</field>
       <field name="parent" ref="root"/>
+    </record>
+    #Taxes
+    <record model="account.tax.code.template"
+	    id="tax_code_co">
+      <field name="name">Colombian Tax Code Chart</field>
+      <field name="account" ref="root"/>
+    </record>
+    
+    <record model="account.tax.code.template"
+	    id="vat_code_chart_root">
+      <field name="name">Impuestos de Colombia</field>
+      <field name="parent" ref="tax_code_co"/>
+      <field name="account" ref="root"/>
+    </record>
+
+    <record model="account.tax.group"
+	    id="impuesto_venta">
+      <field name="name">Impuestos Ventas</field>
+      <field name="code">IMPV</field>
+      <field name="kind">sale</field>
+    </record>
+
+    <record model="account.tax.group"
+	    id="impuesto_compra">
+      <field name="name">Impuestos Compras</field>
+      <field name="code">IMPC</field>
+      <field name="kind">purchase</field>
+    </record>
+
+    <record model="account.tax.group"
+	    id="impuesto_general">
+      <field name="name">Impuestos General</field>
+      <field name="code">IMPG</field>
+      <field name="kind">both</field>
     </record>
 
   </data>

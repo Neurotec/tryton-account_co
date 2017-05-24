@@ -31,18 +31,8 @@ def parse_csv(filename):
             else:
                 yield dict(zip(header, row))
 
-
-trytone = Element('tryton')
-trytone.append(Comment("Don't edit this file manually autogenerate from totryton.py"))
-datae = SubElement(trytone, 'data')
-
-for row in parse_csv('account.account.template.csv'):
-    record = SubElement(datae, 'record')
-    record.set('id', row['id'])
-    record.set('model', 'account.account.template')
-    
-    def cfield(name, value):
-        field = SubElement(record,'field')
+def cfield(parent, name, value):
+        field = SubElement(parent,'field')
         field.set('name', name)
         if value == True:
             field.set('eval', 'True')
@@ -54,6 +44,22 @@ for row in parse_csv('account.account.template.csv'):
                     field.set(k, value[k])
             else:
                 field.text=value
+
+def prettyprint(dom):        
+    rough_string = tostring(dom, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ")
+
+## GENERACION DE CUENTAS
+trytonaccounts = Element('tryton')
+trytonaccounts.append(Comment("Don't edit this file manually autogenerate from totryton.py"))
+datae = SubElement(trytonaccounts, 'data')
+
+for row in parse_csv('account.account.template.csv'):
+    record = SubElement(datae, 'record')
+    record.set('id', row['id'])
+    record.set('model', 'account.account.template')
+    
 
     fields = {
         'name': row['name'],
@@ -78,12 +84,68 @@ for row in parse_csv('account.account.template.csv'):
 
     fields['parent'] = {'ref': row['id'][0:8]}
     for k in fields:
-        cfield(k, fields[k])
-
+        cfield(record, k, fields[k])
         
+with open('accounts.xml', 'w') as f:
+    f.write(prettyprint(trytonaccounts))
+    
+# GENERACION DE IMPUESTOS
+trytontaxs = Element('tryton')
+trytontaxs.append(Comment("Don't edit this file manually autogenerate from totryton.py"))
+datae = SubElement(trytontaxs, 'data')
 
-rough_string = tostring(trytone, 'utf-8')
-reparsed = minidom.parseString(rough_string)
-with open('odoo_accounts.xml', 'w') as f:
-    f.write(reparsed.toprettyxml(indent="  "))
+for row in parse_csv('account.account.tag.csv'):
+    record = SubElement(datae, 'record')
+    record.set('id', row['id'])
+    record.set('model', 'account.tax.code.template')
 
+    if row['applicability'] != 'taxes':
+        raise RuntimeError("applicability unknown")
+    
+    cfield(record, 'name', row['name'])
+    cfield(record, 'code', row['name'])
+    cfield(record, 'parent', {'ref': 'vat_code_chart_root'})
+    cfield(record, 'account', {'ref': 'root'})
+    
+nline = 0
+for row in parse_csv('account.tax.template.csv'):
+    nline += 1
+    amount_type = row['amount_type']
+    if amount_type != 'percent':
+        print("Warning omiting line {} unknow amount type {}".format(nline, amount_type))
+        continue
+    if row['account_id:id'] == "":
+        print("Warning omiting line {} unknow account_type".format(nline, amount_type))
+        continue
+    record = SubElement(datae, 'record')
+    record.set('id', row['id'])
+    record.set('model', 'account.tax.template')
+    cfield(record, 'name', row['name'])
+    cfield(record, 'description', row['description'])
+    
+    amount_type = row['amount_type']
+    if amount_type == 'percent':
+        cfield(record,'type', 'percentage')
+        amount = float(row['amount']) / 100
+        cfield(record, 'rate', {'eval': "Decimal('{}')".format(row['amount'])})
+    else:
+        raise RuntimeError("unknown amount type {}".format(amount_type))
+
+
+    cfield(record, 'invoice_account', {'ref': row['account_id:id']})
+    cfield(record, 'credit_note_account', {'ref': row['refund_account_id:id']})
+    cfield(record, 'invoice_base_code', {'ref': row['tag_ids/id']})
+    cfield(record, 'credit_note_base_code', {'ref': row['tag_ids/id']})
+    cfield(record, 'credit_note_base_sign', {'eval': "-1"})
+    cfield(record, 'account', {'ref': 'root'})
+
+    type_tax_use = row['type_tax_use']
+    if type_tax_use == 'sale':
+        cfield(record, 'group', {'ref': 'impuesto_venta'})
+    elif type_tax_use == 'purchase':
+        cfield(record, 'group', {'ref': 'impuesto_compra'})
+    else:
+        cfield(record, 'group', {'ref': 'impuesto_general'})
+with open('taxs.xml', 'w') as f:
+    f.write(prettyprint(trytontaxs))
+        
