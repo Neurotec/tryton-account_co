@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<tryton>
+  <data>
+
+    <record model="account.account.type.template" id="co">
+      <field name="name">Colombian Account Type Chart</field>
+      <field name="sequence" eval="10"/>
+    </record>
+
+    <record model="account.account.type.template" id="account_type_liquidity">
+      <field name="name">Banco y Caja</field>
+      <field name="sequence" eval="10"/>
+      <field name="parent" ref="co" />
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_current_assets">
+      <field name="name">Activos Corrientes</field>
+      <field name="sequence" eval="10"/>
+      <field name="parent" ref="co" />
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_receivable">
+      <field name="name">Por Cobrar</field>
+      <field name="sequence" eval="10"/>
+      <field name="parent" ref="co"/>
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_payable">
+      <field name="name">Por Pagar</field>
+      <field name="sequence" eval="10"/>
+      <field name="parent" ref="co" />
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_current_liabilities">
+      <field name="name">Pasivos Corrientes</field>
+      <field name="sequence" eval="10"/>
+      <field name="parent" ref="co" />
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_equity">
+      <field name="name">Patrimonio</field>
+      <field name="sequence" eval="10"/>
+      <field name="parent" ref="co" />
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_revenue">
+      <field name="name">Ingreso</field>
+      <field name="sequence" eval="10" />
+      <field name="parent" ref="co" />
+      <field name="display_balance">credit-debit</field>
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_expenses">
+      <field name="name">Gastos</field>
+      <field name="sequence" eval="10" />
+      <field name="parent" ref="co" />
+      <field name="display_balance">credit-debit</field>
+    </record>
+    
+    <record model="account.account.type.template" id="account_type_direct_costs">
+      <field name="name">Costo de ingresos</field>
+      <field name="sequence" eval="10" />
+      <field name="parent" ref="co" />
+    </record>
+
+    <record model="account.account.template" id="root">
+      <field name="name">Plan Contable Colombia</field>
+      <field name="kind">view</field>
+      <field name="type" ref="co"/>
+    </record>
+
+    <record model="account.account.template" id="co_puc_1">
+      <field name="name">ACTIVO</field>
+      <field name="code">1*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+    <record model="account.account.template" id="co_puc_2">
+      <field name="name">PASIVO</field>
+      <field name="code">2*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+    <record model="account.account.template" id="co_puc_3">
+      <field name="name">PATRIMONIO</field>
+      <field name="code">3*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+    <record model="account.account.template" id="co_puc_4">
+      <field name="name">INGRESOS</field>
+      <field name="code">4*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+
+    <record model="account.account.template" id="co_puc_5">
+      <field name="name">GASTOS</field>
+      <field name="code">5*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+
+    <record model="account.account.template" id="co_puc_6">
+      <field name="name">COSTOS DE VENTA</field>
+      <field name="code">6*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+
+    <record model="account.account.template" id="co_puc_7">
+      <field name="name">COSTOS DE PRODUCCION/OPERACION</field>
+      <field name="code">7*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+
+    <record model="account.account.template" id="co_puc_8">
+      <field name="name">CUENTA DE ORDEN DEUDORAS</field>
+      <field name="code">8*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+
+    <record model="account.account.template"  id="co_puc_9">
+      <field name="name">CUENTA DE ORDEN ACREEDORAS</field>
+      <field name="code">9*</field>	
+      <field name="kind">view</field>
+      <field name="parent" ref="root"/>
+    </record>
+
+  </data>
+</tryton>
