@@ -38,7 +38,7 @@ evaluar el correcto funcionamiento de las cuentas y los impuestos.
 
 # DESARROLLO 
 
-## odoo
+## ODOO 
 
 - liquility, caja general
 - expenses, gastos
@@ -64,5 +64,7 @@ Subcuenta:
 
 Las clases 1, 2 y 3 comprenden las cuentas que conforman el balance general; las clases 4, 5, 6 y 7 corresponden a las cuentas del estado de ganancias o pérdidas o estado de resultados y las clases 8 y 9 detallan las cuentas de orden.
 
-
+### CLIENTES
+ - Cuentas por cobrar:  130505 nacionales
+ - Cuentas por pagar: 220505 nacionales
 

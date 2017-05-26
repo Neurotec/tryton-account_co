@@ -2622,7 +2622,7 @@
       <field name="name">INC   4% SERV - OUT</field>
       <field name="description">INC04S&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('4')" name="rate"/>
+      <field eval="Decimal('0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_249510"/>
       <field name="credit_note_account" ref="co_puc_249510"/>
       <field name="invoice_base_code" ref="tag_1"/>
@@ -2635,7 +2635,7 @@
       <field name="name">INC   8% SERV - OUT</field>
       <field name="description">INC08S&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('8')" name="rate"/>
+      <field eval="Decimal('0.08')" name="rate"/>
       <field name="invoice_account" ref="co_puc_249510"/>
       <field name="credit_note_account" ref="co_puc_249510"/>
       <field name="invoice_base_code" ref="tag_2"/>
@@ -2648,7 +2648,7 @@
       <field name="name">INC   8% BIEN - OUT</field>
       <field name="description">INC08B&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('8')" name="rate"/>
+      <field eval="Decimal('0.08')" name="rate"/>
       <field name="invoice_account" ref="co_puc_249510"/>
       <field name="credit_note_account" ref="co_puc_249510"/>
       <field name="invoice_base_code" ref="tag_3"/>
@@ -2661,7 +2661,7 @@
       <field name="name">INC  16% SERV - OUT</field>
       <field name="description">INC16S&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_249510"/>
       <field name="credit_note_account" ref="co_puc_249510"/>
       <field name="invoice_base_code" ref="tag_4"/>
@@ -2674,7 +2674,7 @@
       <field name="name">INC  16% BIEN - OUT</field>
       <field name="description">INC16B&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_249510"/>
       <field name="credit_note_account" ref="co_puc_249510"/>
       <field name="invoice_base_code" ref="tag_5"/>
@@ -2687,7 +2687,7 @@
       <field name="name">CREE  4 ‰ AUTORET</field>
       <field name="description">CREE04&gt;\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0.4')" name="rate"/>
+      <field eval="Decimal('0.004')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_13"/>
@@ -2700,7 +2700,7 @@
       <field name="name">CREE  4 ‰ CONTRAP</field>
       <field name="description">CREE04&gt;/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.4')" name="rate"/>
+      <field eval="Decimal('-0.004')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135595"/>
       <field name="credit_note_account" ref="co_puc_135595"/>
       <field name="invoice_base_code" ref="tag_14"/>
@@ -2713,7 +2713,7 @@
       <field name="name">CREE  8 ‰ AUTORET</field>
       <field name="description">CREE08&gt;\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0.8')" name="rate"/>
+      <field eval="Decimal('0.008')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_16"/>
@@ -2726,7 +2726,7 @@
       <field name="name">CREE  8 ‰ CONTRAP</field>
       <field name="description">CREE08&gt;/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.8')" name="rate"/>
+      <field eval="Decimal('-0.008')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135595"/>
       <field name="credit_note_account" ref="co_puc_135595"/>
       <field name="invoice_base_code" ref="tag_17"/>
@@ -2739,7 +2739,7 @@
       <field name="name">CREE 16 ‰ AUTORET</field>
       <field name="description">CREE16&gt;\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1.6')" name="rate"/>
+      <field eval="Decimal('0.016')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_19"/>
@@ -2752,7 +2752,7 @@
       <field name="name">CREE 16 ‰ CONTRAP</field>
       <field name="description">CREE16&gt;/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1.6')" name="rate"/>
+      <field eval="Decimal('-0.016')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135595"/>
       <field name="credit_note_account" ref="co_puc_135595"/>
       <field name="invoice_base_code" ref="tag_20"/>
@@ -2765,7 +2765,7 @@
       <field name="name">IVA   5%  BIEN - OUT</field>
       <field name="description">IVA05B&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240805"/>
       <field name="credit_note_account" ref="co_puc_240805"/>
       <field name="invoice_base_code" ref="tag_22"/>
@@ -2778,7 +2778,7 @@
       <field name="name">IVA   5%  SERV - OUT</field>
       <field name="description">IVA05S&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240805"/>
       <field name="credit_note_account" ref="co_puc_240805"/>
       <field name="invoice_base_code" ref="tag_26"/>
@@ -2791,7 +2791,7 @@
       <field name="name">IVA  16%  BIEN - OUT</field>
       <field name="description">IVA16b&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240805"/>
       <field name="credit_note_account" ref="co_puc_240805"/>
       <field name="invoice_base_code" ref="tag_30"/>
@@ -2804,7 +2804,7 @@
       <field name="name">IVA  16%  SERV - OUT</field>
       <field name="description">IVA16S&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240805"/>
       <field name="credit_note_account" ref="co_puc_240805"/>
       <field name="invoice_base_code" ref="tag_34"/>
@@ -2817,7 +2817,7 @@
       <field name="name">IVA 5% DIRECTO BIEN - IN</field>
       <field name="description">IVA05Bd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_62"/>
@@ -2830,7 +2830,7 @@
       <field name="name">IVA 5% DIRECTO BIEN EXTERIOR - IN</field>
       <field name="description">IVA05Bd&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_63"/>
@@ -2843,7 +2843,7 @@
       <field name="name">IVA 5% DIRECTO BIEN ZONA FRANCA - IN</field>
       <field name="description">IVA05Bd&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_64"/>
@@ -2856,7 +2856,7 @@
       <field name="name">IVA 5% DIRECTO BIEN SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA05Bd&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_65"/>
@@ -2869,7 +2869,7 @@
       <field name="name">IVA 5% DIRECTO SERV - IN</field>
       <field name="description">IVA05Sd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_66"/>
@@ -2882,7 +2882,7 @@
       <field name="name">IVA 5% DIRECTO SERV EXTERIOR - IN</field>
       <field name="description">IVA05Sd&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_67"/>
@@ -2895,7 +2895,7 @@
       <field name="name">IVA 5% DIRECTO SERV ZONA FRANCA - IN</field>
       <field name="description">IVA05Sd&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_68"/>
@@ -2908,7 +2908,7 @@
       <field name="name">IVA 5% DIRECTO SERV SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA05Sd&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_69"/>
@@ -2921,7 +2921,7 @@
       <field name="name">IVA 16% DIRECTO BIEN - IN</field>
       <field name="description">IVA16Bd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_70"/>
@@ -2934,7 +2934,7 @@
       <field name="name">IVA 16% DIRECTO BIEN EXTERIOR - IN</field>
       <field name="description">IVA16Bd&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_71"/>
@@ -2947,7 +2947,7 @@
       <field name="name">IVA 16% DIRECTO BIEN ZONA FRANCA - IN</field>
       <field name="description">IVA16Bd&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_72"/>
@@ -2960,7 +2960,7 @@
       <field name="name">IVA 16% DIRECTO BIEN SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA16Bd&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_73"/>
@@ -2973,7 +2973,7 @@
       <field name="name">IVA 16% DIRECTO SERV - IN</field>
       <field name="description">IVA16Sd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_74"/>
@@ -2986,7 +2986,7 @@
       <field name="name">IVA 16% DIRECTO SERV EXTERIOR - IN</field>
       <field name="description">IVA16Sd&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_75"/>
@@ -2999,7 +2999,7 @@
       <field name="name">IVA 16% DIRECTO SERV ZONA FRANCA - IN</field>
       <field name="description">IVA16Sd&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_76"/>
@@ -3012,7 +3012,7 @@
       <field name="name">IVA 16% DIRECTO SERV SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA16Sd&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_77"/>
@@ -3025,7 +3025,7 @@
       <field name="name">IVA 5% COMMUN BIEN NACIONAL - IN</field>
       <field name="description">IVA05Bc&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_78"/>
@@ -3038,7 +3038,7 @@
       <field name="name">IVA 5% COMMUN BIEN EXTERIOR - IN</field>
       <field name="description">IVA05Bc&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_79"/>
@@ -3051,7 +3051,7 @@
       <field name="name">IVA 5% COMMUN BIEN ZONA FRANCA - IN</field>
       <field name="description">IVA05Bc&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_80"/>
@@ -3064,7 +3064,7 @@
       <field name="name">IVA 5% COMMUN BIEN SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA05Bc&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_81"/>
@@ -3077,7 +3077,7 @@
       <field name="name">IVA 5% COMMUN SERV - IN</field>
       <field name="description">IVA05Sc&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_82"/>
@@ -3090,7 +3090,7 @@
       <field name="name">IVA 5% COMMUN SERV EXTERIOR - IN</field>
       <field name="description">IVA05Sc&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_83"/>
@@ -3103,7 +3103,7 @@
       <field name="name">IVA 5% COMMUN SERV ZONA FRANCA - IN</field>
       <field name="description">IVA05Sc&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_84"/>
@@ -3116,7 +3116,7 @@
       <field name="name">IVA 5% COMMUN SERV SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA05Sc&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('5')" name="rate"/>
+      <field eval="Decimal('0.05')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_85"/>
@@ -3129,7 +3129,7 @@
       <field name="name">IVA 16% COMMUN BIEN - IN</field>
       <field name="description">IVA16Bc&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_86"/>
@@ -3142,7 +3142,7 @@
       <field name="name">IVA 16% COMMUN BIEN EXTERIOR - IN</field>
       <field name="description">IVA16Bc&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_87"/>
@@ -3155,7 +3155,7 @@
       <field name="name">IVA 16% COMMUN BIEN ZONA FRANCA - IN</field>
       <field name="description">IVA16Bc&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_88"/>
@@ -3168,7 +3168,7 @@
       <field name="name">IVA 16% COMMUN BIEN SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA16Bc&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_89"/>
@@ -3181,7 +3181,7 @@
       <field name="name">IVA 16% COMMUN SERV - IN</field>
       <field name="description">IVA16Sc&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_90"/>
@@ -3194,7 +3194,7 @@
       <field name="name">IVA 16% COMMUN SERV EXTERIOR - IN</field>
       <field name="description">IVA16Sc&lt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_91"/>
@@ -3207,7 +3207,7 @@
       <field name="name">IVA 16% COMMUN SERV ZONA FRANCA - IN</field>
       <field name="description">IVA16Sc&lt;ZF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_92"/>
@@ -3220,7 +3220,7 @@
       <field name="name">IVA 16% COMMUN SERV SOCEDAD COMMERCIO INTERNACIONAL - IN</field>
       <field name="description">IVA16Sc&lt;SI</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_93"/>
@@ -3233,7 +3233,7 @@
       <field name="name">R IVA 2.4%</field>
       <field name="description">rIVA24&gt;RC</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.4')" name="rate"/>
+      <field eval="Decimal('-0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135517"/>
       <field name="credit_note_account" ref="co_puc_135517"/>
       <field name="invoice_base_code" ref="tag_134"/>
@@ -3246,7 +3246,7 @@
       <field name="name">R IVA 0.75%</field>
       <field name="description">rIVA75&gt;RC</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.75')" name="rate"/>
+      <field eval="Decimal('-0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135517"/>
       <field name="credit_note_account" ref="co_puc_135517"/>
       <field name="invoice_base_code" ref="tag_135"/>
@@ -3259,7 +3259,7 @@
       <field name="name">R IVA 2.4% AL REGIMEN COMMUN</field>
       <field name="description">rIVA24&lt;RC</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.4')" name="rate"/>
+      <field eval="Decimal('-0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_136"/>
@@ -3272,7 +3272,7 @@
       <field name="name">R IVA 0.75% AL REGIMEN COMMUN</field>
       <field name="description">rIVA75&lt;RC</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.75')" name="rate"/>
+      <field eval="Decimal('-0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_137"/>
@@ -3285,7 +3285,7 @@
       <field name="name">R IVA 2.4% DIRECTO - AL RS ASUMIDO</field>
       <field name="description">rIVA24D&lt;RS\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.4')" name="rate"/>
+      <field eval="Decimal('-0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_138"/>
@@ -3298,7 +3298,7 @@
       <field name="name">R IVA 2.4% DIRECTO - AL RS CONTRAPARTIDA</field>
       <field name="description">rIVA24D&lt;RS/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.4')" name="rate"/>
+      <field eval="Decimal('0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240825"/>
       <field name="credit_note_account" ref="co_puc_240825"/>
       <field name="invoice_base_code" ref="tag_139"/>
@@ -3311,7 +3311,7 @@
       <field name="name">R IVA 0.75% DIRECTO - AL RS ASUMIDO</field>
       <field name="description">rIVA75D&lt;RS\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.75')" name="rate"/>
+      <field eval="Decimal('-0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_141"/>
@@ -3324,7 +3324,7 @@
       <field name="name">R IVA 0.75% DIRECTO - AL RS CONTRAPARTIDA</field>
       <field name="description">rIVA75D&lt;RS/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0.75')" name="rate"/>
+      <field eval="Decimal('0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240825"/>
       <field name="credit_note_account" ref="co_puc_240825"/>
       <field name="invoice_base_code" ref="tag_142"/>
@@ -3337,7 +3337,7 @@
       <field name="name">R IVA 16% DIRECTO - SERVICIO NACIONAL DE UN NO DOMICILIADO ASSUMID0</field>
       <field name="description">rIVA16D&lt;EX\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-16')" name="rate"/>
+      <field eval="Decimal('-0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_144"/>
@@ -3350,7 +3350,7 @@
       <field name="name">R IVA 16% DIRECTO - SERVICIO NACIONAL DE UN NO DOMICILIADO CONTRAPARTIDA</field>
       <field name="description">rIVA16D&lt;EX/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240810"/>
       <field name="credit_note_account" ref="co_puc_240810"/>
       <field name="invoice_base_code" ref="tag_145"/>
@@ -3363,7 +3363,7 @@
       <field name="name">R IVA 2.4% COMMUN - AL RS ASUMIDO</field>
       <field name="description">rIVA24C&lt;RS\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.4')" name="rate"/>
+      <field eval="Decimal('-0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_147"/>
@@ -3376,7 +3376,7 @@
       <field name="name">R IVA 2.4% COMMUN - AL RS CONTRAPARTIDA</field>
       <field name="description">rIVA24C&lt;RS/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.4')" name="rate"/>
+      <field eval="Decimal('0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240820"/>
       <field name="credit_note_account" ref="co_puc_240820"/>
       <field name="invoice_base_code" ref="tag_148"/>
@@ -3389,7 +3389,7 @@
       <field name="name">R IVA 0.75% COMMUN - AL RS ASUMIDO</field>
       <field name="description">rIVA75C&lt;RS\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.75')" name="rate"/>
+      <field eval="Decimal('-0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_150"/>
@@ -3402,7 +3402,7 @@
       <field name="name">R IVA 0.75% COMMUN - AL RS CONTRAPARTIDA</field>
       <field name="description">rIVA75C&lt;RS/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0.75')" name="rate"/>
+      <field eval="Decimal('0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240820"/>
       <field name="credit_note_account" ref="co_puc_240820"/>
       <field name="invoice_base_code" ref="tag_151"/>
@@ -3415,7 +3415,7 @@
       <field name="name">R IVA 16% COMMUN - SERVICIO NACIONAL DE UN NO DOMICILIADO ASUMIDO</field>
       <field name="description">rIVA16C&lt;EX\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-16')" name="rate"/>
+      <field eval="Decimal('-0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_153"/>
@@ -3428,7 +3428,7 @@
       <field name="name">R IVA 16% COMMUN - SERVICIO NACIONAL DE UN NO DOMICILIADO CONTRAPARTIDA</field>
       <field name="description">rIVA16C&lt;EX/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('16')" name="rate"/>
+      <field eval="Decimal('0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_240815"/>
       <field name="credit_note_account" ref="co_puc_240815"/>
       <field name="invoice_base_code" ref="tag_154"/>
@@ -3441,7 +3441,7 @@
       <field name="name">R IVA 2.4% NO DESCONTABLE - AL RS ASUMIDO</field>
       <field name="description">rIVA24N&lt;RS\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.4')" name="rate"/>
+      <field eval="Decimal('-0.024')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_156"/>
@@ -3454,7 +3454,7 @@
       <field name="name">R IVA 0.75% NO DESCONTABLE - AL RS ASUMIDO</field>
       <field name="description">rIVA75N&lt;RS\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.75')" name="rate"/>
+      <field eval="Decimal('-0.0075')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_159"/>
@@ -3467,7 +3467,7 @@
       <field name="name">R IVA 16% NO DESCONTABLE - SERVICIO NACIONAL DE UN NO DOMICILIADO ASUMIDO</field>
       <field name="description">rIVA16N&lt;EX\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-16')" name="rate"/>
+      <field eval="Decimal('-0.16')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236705"/>
       <field name="credit_note_account" ref="co_puc_236705"/>
       <field name="invoice_base_code" ref="tag_162"/>
@@ -3480,7 +3480,7 @@
       <field name="name">R REN C Enajenación de activos fijos; vendedor pers. natural no agente</field>
       <field name="description">rRENenaAFIJ&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236560"/>
       <field name="credit_note_account" ref="co_puc_236560"/>
       <field name="invoice_base_code" ref="tag_165"/>
@@ -3493,7 +3493,7 @@
       <field name="name">R REN V Enajenación de activos fijos; vendedor pers. natural no agente </field>
       <field name="description">rRENenaAFIJ&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_166"/>
@@ -3506,7 +3506,7 @@
       <field name="name">R REN EXTERIOR Enajenación de activos fijos; vendedor pers. natural no agente</field>
       <field name="description">rRENenaAFIJ&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_167"/>
@@ -3519,7 +3519,7 @@
       <field name="name">R REN PARAISO Enajenación de activos fijos; vendedor pers. natural no agente </field>
       <field name="description">rRENenaAFIJ&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_168"/>
@@ -3532,7 +3532,7 @@
       <field name="name">R REN C Adquisición de Bienes Raíces; no vivienda; agente</field>
       <field name="description">rRENadqRAIC&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_169"/>
@@ -3545,7 +3545,7 @@
       <field name="name">R REN V Adquisición de Bienes Raíces; no vivienda; agente</field>
       <field name="description">rRENadqRAIC&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_170"/>
@@ -3558,7 +3558,7 @@
       <field name="name">R REN EXTERIOR Adquisición de Bienes Raíces; no vivienda; agente</field>
       <field name="description">rRENadqRAIC&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_171"/>
@@ -3571,7 +3571,7 @@
       <field name="name">R REN PARAISO Adquisición de Bienes Raíces; no vivienda; agente</field>
       <field name="description">rRENadqRAIC&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_172"/>
@@ -3584,7 +3584,7 @@
       <field name="name">AR REN - Adquisición de Bienes Raíces; no vivienda; agente ASIMUDO</field>
       <field name="description">rRENadqRAIC&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_173"/>
@@ -3597,7 +3597,7 @@
       <field name="name">AR REN - Adquisición de Bienes Raíces; no vivienda; agente CONTRAPARTIDA</field>
       <field name="description">rRENadqRAIC&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_174"/>
@@ -3610,7 +3610,7 @@
       <field name="name">R REN C Adquisición de Bienes Raíces; vidienda; primeras 20.000 UVT</field>
       <field name="description">rRENadqVIVIa&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_176"/>
@@ -3623,7 +3623,7 @@
       <field name="name">R REN V Adquisición de Bienes Raíces; vidienda; primeras 20.000 UVT</field>
       <field name="description">rRENadqVIVIa&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_177"/>
@@ -3636,7 +3636,7 @@
       <field name="name">R REN EXTERIOR Adquisición de Bienes Raíces; vidienda; primeras 20.000 UVT</field>
       <field name="description">rRENadqVIVIa&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_178"/>
@@ -3649,7 +3649,7 @@
       <field name="name">R REN PARAISO Adquisición de Bienes Raíces; vidienda; primeras 20.000 UVT</field>
       <field name="description">rRENadqVIVIa&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_179"/>
@@ -3662,7 +3662,7 @@
       <field name="name">AR REN - Adquisición de Bienes Raíces; vidienda; primeras 20.000 UVT ASIMUDO</field>
       <field name="description">rRENadqVIVIa&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1')" name="rate"/>
+      <field eval="Decimal('0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_180"/>
@@ -3675,7 +3675,7 @@
       <field name="name">AR REN - Adquisición de Bienes Raíces; vidienda; primeras 20.000 UVT CONTRAPARTIDA</field>
       <field name="description">rRENadqVIVIa&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_181"/>
@@ -3688,7 +3688,7 @@
       <field name="name">R REN C Adquisición de Bienes Raíces; vivienda; sobrante de 20.000 UVT</field>
       <field name="description">rRENadqVIVIb&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_183"/>
@@ -3701,7 +3701,7 @@
       <field name="name">R REN V Adquisición de Bienes Raíces; vivienda; sobrante de 20.000 UVT</field>
       <field name="description">rRENadqVIVIb&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_184"/>
@@ -3714,7 +3714,7 @@
       <field name="name">R REN EXTERIOR Adquisición de Bienes Raíces; vivienda; sobrante de 20.000 UVT</field>
       <field name="description">rRENadqVIVIb&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_185"/>
@@ -3727,7 +3727,7 @@
       <field name="name">R REN PARAISO Adquisición de Bienes Raíces; vivienda; sobrante de 20.000 UVT</field>
       <field name="description">rRENadqVIVIb&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_186"/>
@@ -3740,7 +3740,7 @@
       <field name="name">AR REN - Adquisición de Bienes Raíces; vivienda; sobrante de 20.000 UVT ASIMUDO</field>
       <field name="description">rRENadqVIVIb&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_187"/>
@@ -3753,7 +3753,7 @@
       <field name="name">AR REN - Adquisición de Bienes Raíces; vivienda; sobrante de 20.000 UVT CONTRAPARTIDA</field>
       <field name="description">rRENadqVIVIb&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_188"/>
@@ -3766,7 +3766,7 @@
       <field name="name">R REN C Adquisición de vehículos </field>
       <field name="description">rRENadqVEHI&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_190"/>
@@ -3779,7 +3779,7 @@
       <field name="name">R REN V Adquisición de vehículos </field>
       <field name="description">rRENadqVEHI&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_191"/>
@@ -3792,7 +3792,7 @@
       <field name="name">R REN EXTERIOR Adquisición de vehículos </field>
       <field name="description">rRENadqVEHI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_192"/>
@@ -3805,7 +3805,7 @@
       <field name="name">R REN PARAISO Adquisición de vehículos </field>
       <field name="description">rRENadqVEHI&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_193"/>
@@ -3818,7 +3818,7 @@
       <field name="name">AR REN - Adquisición de vehículos  ASIMUDO</field>
       <field name="description">rRENadqVEHI&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1')" name="rate"/>
+      <field eval="Decimal('0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_194"/>
@@ -3831,7 +3831,7 @@
       <field name="name">AR REN - Adquisición de vehículos  CONTRAPARTIDA</field>
       <field name="description">rRENadqVEHI&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_195"/>
@@ -3844,7 +3844,7 @@
       <field name="name">R REN C Arrendamiento de bienes muebles</field>
       <field name="description">rRENarrMUEB&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236530"/>
       <field name="credit_note_account" ref="co_puc_236530"/>
       <field name="invoice_base_code" ref="tag_197"/>
@@ -3857,7 +3857,7 @@
       <field name="name">R REN V Arrendamiento de bienes muebles</field>
       <field name="description">rRENarrMUEB&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_198"/>
@@ -3870,7 +3870,7 @@
       <field name="name">R REN EXTERIOR Arrendamiento de bienes muebles</field>
       <field name="description">rRENarrMUEB&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_199"/>
@@ -3883,7 +3883,7 @@
       <field name="name">R REN PARAISO Arrendamiento de bienes muebles</field>
       <field name="description">rRENarrMUEB&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_200"/>
@@ -3896,7 +3896,7 @@
       <field name="name">AR REN - Arrendamiento de bienes muebles ASIMUDO</field>
       <field name="description">rRENarrMUEB&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('4')" name="rate"/>
+      <field eval="Decimal('0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_201"/>
@@ -3909,7 +3909,7 @@
       <field name="name">AR REN - Arrendamiento de bienes muebles CONTRAPARTIDA</field>
       <field name="description">rRENarrMUEB&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_202"/>
@@ -3922,7 +3922,7 @@
       <field name="name">R REN C Arrendamiento de bienes raíces; declarante</field>
       <field name="description">rRENarrRAICd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236530"/>
       <field name="credit_note_account" ref="co_puc_236530"/>
       <field name="invoice_base_code" ref="tag_204"/>
@@ -3935,7 +3935,7 @@
       <field name="name">R REN V Arrendamiento de bienes raíces; declarante</field>
       <field name="description">rRENarrRAICd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_205"/>
@@ -3948,7 +3948,7 @@
       <field name="name">R REN EXTERIOR Arrendamiento de bienes raíces; declarante</field>
       <field name="description">rRENarrRAICd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236530"/>
       <field name="credit_note_account" ref="co_puc_236530"/>
       <field name="invoice_base_code" ref="tag_206"/>
@@ -3961,7 +3961,7 @@
       <field name="name">R REN PARAISO Arrendamiento de bienes raíces; declarante</field>
       <field name="description">rRENarrRAICd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236530"/>
       <field name="credit_note_account" ref="co_puc_236530"/>
       <field name="invoice_base_code" ref="tag_207"/>
@@ -3974,7 +3974,7 @@
       <field name="name">AR REN - Arrendamiento de bienes raíces; declarante ASIMUDO</field>
       <field name="description">rRENarrRAICd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_208"/>
@@ -3987,7 +3987,7 @@
       <field name="name">AR REN - Arrendamiento de bienes raíces; declarante CONTRAPARTIDA</field>
       <field name="description">rRENarrRAICd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_209"/>
@@ -4000,7 +4000,7 @@
       <field name="name">R REN C Arrendamiento de bienes raíces; no declarante</field>
       <field name="description">rRENarrRAICn&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236530"/>
       <field name="credit_note_account" ref="co_puc_236530"/>
       <field name="invoice_base_code" ref="tag_211"/>
@@ -4013,7 +4013,7 @@
       <field name="name">R REN V Arrendamiento de bienes raíces; no declarante</field>
       <field name="description">rRENarrRAICn&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_212"/>
@@ -4026,7 +4026,7 @@
       <field name="name">R REN EXTERIOR Arrendamiento de bienes raíces; no declarante</field>
       <field name="description">rRENarrRAICn&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_213"/>
@@ -4039,7 +4039,7 @@
       <field name="name">R REN PARAISO Arrendamiento de bienes raíces; no declarante</field>
       <field name="description">rRENarrRAICn&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_214"/>
@@ -4052,7 +4052,7 @@
       <field name="name">R REN C Comisiones en el sector financiero</field>
       <field name="description">rRENcmsSECF&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236520"/>
       <field name="credit_note_account" ref="co_puc_236520"/>
       <field name="invoice_base_code" ref="tag_215"/>
@@ -4065,7 +4065,7 @@
       <field name="name">R REN V Comisiones en el sector financiero</field>
       <field name="description">rRENcmsSECF&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_216"/>
@@ -4078,7 +4078,7 @@
       <field name="name">R REN EXTERIOR Comisiones en el sector financiero</field>
       <field name="description">rRENcmsSECF&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_217"/>
@@ -4091,7 +4091,7 @@
       <field name="name">R REN PARAISO Comisiones en el sector financiero</field>
       <field name="description">rRENcmsSECF&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_218"/>
@@ -4104,7 +4104,7 @@
       <field name="name">AR REN - Comisiones en el sector financiero ASIMUDO</field>
       <field name="description">rRENcmsSECF&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('11')" name="rate"/>
+      <field eval="Decimal('0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_219"/>
@@ -4117,7 +4117,7 @@
       <field name="name">AR REN - Comisiones en el sector financiero CONTRAPARTIDA</field>
       <field name="description">rRENcmsSECF&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_220"/>
@@ -4130,7 +4130,7 @@
       <field name="name">R REN C Comisiones en operaciones realizadas en bolsa de valores</field>
       <field name="description">rRENcmsBOLS&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236520"/>
       <field name="credit_note_account" ref="co_puc_236520"/>
       <field name="invoice_base_code" ref="tag_222"/>
@@ -4143,7 +4143,7 @@
       <field name="name">R REN V Comisiones en operaciones realizadas en bolsa de valores</field>
       <field name="description">rRENcmsBOLS&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_223"/>
@@ -4156,7 +4156,7 @@
       <field name="name">R REN EXTERIOR Comisiones en operaciones realizadas en bolsa de valores</field>
       <field name="description">rRENcmsBOLS&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_224"/>
@@ -4169,7 +4169,7 @@
       <field name="name">R REN PARAISO Comisiones en operaciones realizadas en bolsa de valores</field>
       <field name="description">rRENcmsBOLS&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_225"/>
@@ -4182,7 +4182,7 @@
       <field name="name">AR REN - Comisiones en operaciones realizadas en bolsa de valores ASIMUDO</field>
       <field name="description">rRENcmsBOLS&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('3')" name="rate"/>
+      <field eval="Decimal('0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_226"/>
@@ -4195,7 +4195,7 @@
       <field name="name">AR REN - Comisiones en operaciones realizadas en bolsa de valores CONTRAPARTIDA</field>
       <field name="description">rRENcmsBOLS&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_227"/>
@@ -4208,7 +4208,7 @@
       <field name="name">R REN C Compra de café pergamino o cereza</field>
       <field name="description">rRENcmpCAFE&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.5')" name="rate"/>
+      <field eval="Decimal('-0.005')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_229"/>
@@ -4221,7 +4221,7 @@
       <field name="name">R REN V Compra de café pergamino o cereza</field>
       <field name="description">rRENcmpCAFE&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.5')" name="rate"/>
+      <field eval="Decimal('-0.005')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_230"/>
@@ -4234,7 +4234,7 @@
       <field name="name">R REN EXTERIOR Compra de café pergamino o cereza</field>
       <field name="description">rRENcmpCAFE&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.5')" name="rate"/>
+      <field eval="Decimal('-0.005')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_231"/>
@@ -4247,7 +4247,7 @@
       <field name="name">R REN PARAISO Compra de café pergamino o cereza</field>
       <field name="description">rRENcmpCAFE&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_232"/>
@@ -4260,7 +4260,7 @@
       <field name="name">AR REN - Compra de café pergamino o cereza ASIMUDO</field>
       <field name="description">rRENcmpCAFE&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0.5')" name="rate"/>
+      <field eval="Decimal('0.005')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_233"/>
@@ -4273,7 +4273,7 @@
       <field name="name">AR REN - Compra de café pergamino o cereza CONTRAPARTIDA</field>
       <field name="description">rRENcmpCAFE&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.5')" name="rate"/>
+      <field eval="Decimal('-0.005')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_234"/>
@@ -4286,7 +4286,7 @@
       <field name="name">R REN C Compra de productos  agrícolas o pecuarios sin procesamiento industrial </field>
       <field name="description">rRENcmpAGRO&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1.5')" name="rate"/>
+      <field eval="Decimal('-0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_236"/>
@@ -4299,7 +4299,7 @@
       <field name="name">R REN V Compra de productos  agrícolas o pecuarios sin procesamiento industrial </field>
       <field name="description">rRENcmpAGRO&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1.5')" name="rate"/>
+      <field eval="Decimal('-0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_237"/>
@@ -4312,7 +4312,7 @@
       <field name="name">R REN EXTERIOR Compra de productos  agrícolas o pecuarios sin procesamiento industrial </field>
       <field name="description">rRENcmpAGRO&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1.5')" name="rate"/>
+      <field eval="Decimal('-0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_238"/>
@@ -4325,7 +4325,7 @@
       <field name="name">R REN PARAISO Compra de productos  agrícolas o pecuarios sin procesamiento industrial </field>
       <field name="description">rRENcmpAGRO&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_239"/>
@@ -4338,7 +4338,7 @@
       <field name="name">AR REN - Compra de productos  agrícolas o pecuarios sin procesamiento industrial  ASIMUDO</field>
       <field name="description">rRENcmpAGRO&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1.5')" name="rate"/>
+      <field eval="Decimal('0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_240"/>
@@ -4351,7 +4351,7 @@
       <field name="name">AR REN - Compra de productos  agrícolas o pecuarios sin procesamiento industrial  CONTRAPARTIDA</field>
       <field name="description">rRENcmpAGRO&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1.5')" name="rate"/>
+      <field eval="Decimal('-0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_241"/>
@@ -4364,7 +4364,7 @@
       <field name="name">R REN C Compra de combustible y derivados del petróleo</field>
       <field name="description">rRENcmpPETR&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.1')" name="rate"/>
+      <field eval="Decimal('-0.001')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_243"/>
@@ -4377,7 +4377,7 @@
       <field name="name">R REN V Compra de combustible y derivados del petróleo</field>
       <field name="description">rRENcmpPETR&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.1')" name="rate"/>
+      <field eval="Decimal('-0.001')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_244"/>
@@ -4390,7 +4390,7 @@
       <field name="name">R REN EXTERIOR Compra  de combustible y derivados del petróleo</field>
       <field name="description">rRENcmpPETR&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.1')" name="rate"/>
+      <field eval="Decimal('-0.001')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_245"/>
@@ -4403,7 +4403,7 @@
       <field name="name">R REN PARAISO Compra  de combustible y derivados del petróleo</field>
       <field name="description">rRENcmpPETR&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_246"/>
@@ -4416,7 +4416,7 @@
       <field name="name">AR REN - Compra  de combustible y derivados del petróleo ASIMUDO</field>
       <field name="description">rRENcmpPETR&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0.1')" name="rate"/>
+      <field eval="Decimal('0.001')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_247"/>
@@ -4429,7 +4429,7 @@
       <field name="name">AR REN - Compra  de combustible y derivados del petróleo CONTRAPARTIDA</field>
       <field name="description">rRENcmpPETR&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-0.1')" name="rate"/>
+      <field eval="Decimal('-0.001')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_248"/>
@@ -4442,7 +4442,7 @@
       <field name="name">R REN C Consultoría en obras públicas </field>
       <field name="description">rRENcsuPUBL&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_250"/>
@@ -4455,7 +4455,7 @@
       <field name="name">R REN V Consultoría en obras públicas </field>
       <field name="description">rRENcsuPUBL&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_251"/>
@@ -4468,7 +4468,7 @@
       <field name="name">R REN EXTERIOR Consultoría en obras públicas </field>
       <field name="description">rRENcsuPUBL&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_252"/>
@@ -4481,7 +4481,7 @@
       <field name="name">R REN PARAISO Consultoría en obras públicas </field>
       <field name="description">rRENcsuPUBL&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_253"/>
@@ -4494,7 +4494,7 @@
       <field name="name">AR REN - Consultoría en obras públicas  ASIMUDO</field>
       <field name="description">rRENcsuPUBL&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2')" name="rate"/>
+      <field eval="Decimal('0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_254"/>
@@ -4507,7 +4507,7 @@
       <field name="name">AR REN - Consultoría en obras públicas  CONTRAPARTIDA</field>
       <field name="description">rRENcsuPUBL&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_255"/>
@@ -4520,7 +4520,7 @@
       <field name="name">R REN C Contratos de consultoría en ingeniería de proyectos; declarante</field>
       <field name="description">rRENcsuINFRd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_257"/>
@@ -4533,7 +4533,7 @@
       <field name="name">R REN V Contratos de consultoría en ingeniería de proyectos; declarante</field>
       <field name="description">rRENcsuINFRd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_258"/>
@@ -4546,7 +4546,7 @@
       <field name="name">R REN EXTERIOR Contratos de consultoría en ingeniería de proyectos; declarante</field>
       <field name="description">rRENcsuINFRd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_259"/>
@@ -4559,7 +4559,7 @@
       <field name="name">R REN PARAISO Contratos de consultoría en ingeniería de proyectos; declarante</field>
       <field name="description">rRENcsuINFRd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_260"/>
@@ -4572,7 +4572,7 @@
       <field name="name">AR REN - Contratos de consultoría en ingeniería de proyectos; declarante ASIMUDO</field>
       <field name="description">rRENcsuINFRd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('6')" name="rate"/>
+      <field eval="Decimal('0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_261"/>
@@ -4585,7 +4585,7 @@
       <field name="name">AR REN - Contratos de consultoría en ingeniería de proyectos; declarante CONTRAPARTIDA</field>
       <field name="description">rRENcsuINFRd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_262"/>
@@ -4598,7 +4598,7 @@
       <field name="name">R REN C Contratos de consultoría en ingeniería de proyectos; no declarante; Tarifa 6%</field>
       <field name="description">rRENcsuINFRnA&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_264"/>
@@ -4611,7 +4611,7 @@
       <field name="name">R REN V Contratos de consultoría en ingeniería de proyectos; no declarante; Tarifa 6%</field>
       <field name="description">rRENcsuINFRnA&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_265"/>
@@ -4624,7 +4624,7 @@
       <field name="name">R REN EXTERIOR Contratos de consultoría en ingeniería de proyectos; no declarante; Tarifa 6%</field>
       <field name="description">rRENcsuINFRnA&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_266"/>
@@ -4637,7 +4637,7 @@
       <field name="name">R REN C Contratos de consultoría en ingeniería de proyectos; no declarante; Tarifa 10%</field>
       <field name="description">rRENcsuINFRnB&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_267"/>
@@ -4650,7 +4650,7 @@
       <field name="name">R REN V Contratos de consultoría en ingeniería de proyectos; no declarante; Tarifa 10%</field>
       <field name="description">rRENcsuINFRnB&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_268"/>
@@ -4663,7 +4663,7 @@
       <field name="name">R REN EXTERIOR Contratos de consultoría en ingeniería de proyectos; no declarante; Tarifa 10%</field>
       <field name="description">rRENcsuINFRnB&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_269"/>
@@ -4676,7 +4676,7 @@
       <field name="name">R REN PARAISO Contratos de consultoría en ingeniería de proyectos; no declarante</field>
       <field name="description">rRENcsuINFRnB&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_270"/>
@@ -4689,7 +4689,7 @@
       <field name="name">R REN C Contratos de construcción  y urbanización</field>
       <field name="description">rRENctrCSTR&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_271"/>
@@ -4702,7 +4702,7 @@
       <field name="name">R REN V Contratos de construcción  y urbanización</field>
       <field name="description">rRENctrCSTR&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_272"/>
@@ -4715,7 +4715,7 @@
       <field name="name">R REN EXTERIOR Contratos de construcción  y urbanización</field>
       <field name="description">rRENctrCSTR&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_273"/>
@@ -4728,7 +4728,7 @@
       <field name="name">R REN PARAISO Contratos de construcción  y urbanización</field>
       <field name="description">rRENctrCSTR&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_274"/>
@@ -4741,7 +4741,7 @@
       <field name="name">AR REN - Contratos de construcción  y urbanización ASIMUDO</field>
       <field name="description">rRENctrCSTR&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2')" name="rate"/>
+      <field eval="Decimal('0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_275"/>
@@ -4754,7 +4754,7 @@
       <field name="name">AR REN - Contratos de construcción  y urbanización CONTRAPARTIDA</field>
       <field name="description">rRENctrCSTR&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_276"/>
@@ -4767,7 +4767,7 @@
       <field name="name">R REN C Web y Programas; declarantes de renta </field>
       <field name="description">rRENserPROGd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_278"/>
@@ -4780,7 +4780,7 @@
       <field name="name">R REN V Web y Programas; declarantes de renta </field>
       <field name="description">rRENserPROGd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_279"/>
@@ -4793,7 +4793,7 @@
       <field name="name">R REN EXTERIOR Web y Programas; declarantes de renta </field>
       <field name="description">rRENserPROGd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_280"/>
@@ -4806,7 +4806,7 @@
       <field name="name">R REN PARAISO Web y Programas; declarantes de renta </field>
       <field name="description">rRENserPROGd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_281"/>
@@ -4819,7 +4819,7 @@
       <field name="name">AR REN - Web y Programas; declarantes de renta  ASIMUDO</field>
       <field name="description">rRENserPROGd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('3.5')" name="rate"/>
+      <field eval="Decimal('0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_282"/>
@@ -4832,7 +4832,7 @@
       <field name="name">AR REN - Web y Programas; declarantes de renta  CONTRAPARTIDA</field>
       <field name="description">rRENserPROGd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_283"/>
@@ -4845,7 +4845,7 @@
       <field name="name">AR REN - Exportación de Hidrocarburos ASIMUDO</field>
       <field name="description">rRENexpHIDR&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1.5')" name="rate"/>
+      <field eval="Decimal('0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_285"/>
@@ -4858,7 +4858,7 @@
       <field name="name">AR REN - Exportación de Hidrocarburos CONTRAPARTIDA</field>
       <field name="description">rRENexpHIDR&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1.5')" name="rate"/>
+      <field eval="Decimal('-0.015')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_286"/>
@@ -4871,7 +4871,7 @@
       <field name="name">AR REN - Exportación de demás productor mineros, incluido el oro  ASIMUDO</field>
       <field name="description">rRENexpMINE&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1')" name="rate"/>
+      <field eval="Decimal('0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_288"/>
@@ -4884,7 +4884,7 @@
       <field name="name">AR REN - Exportación de demás productor mineros, incluido el oro  CONTRAPARTIDA</field>
       <field name="description">rRENexpMINE&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_289"/>
@@ -4897,7 +4897,7 @@
       <field name="name">R REN C Honorarios; persona natural; Tarifa 11%</field>
       <field name="description">rRENhonNATU&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_291"/>
@@ -4910,7 +4910,7 @@
       <field name="name">R REN V Honorarios; persona natural; Tarifa 11%</field>
       <field name="description">rRENhonNATU&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_292"/>
@@ -4923,7 +4923,7 @@
       <field name="name">R REN EXTERIOR Honorarios; persona natural; Tarifa 11%</field>
       <field name="description">rRENhonNATU&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_293"/>
@@ -4936,7 +4936,7 @@
       <field name="name">R REN C Honorarios; persona natural; Tarifa 10%</field>
       <field name="description">rRENhonJURI&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_294"/>
@@ -4949,7 +4949,7 @@
       <field name="name">R REN V Honorarios; persona natural; Tarifa 10%</field>
       <field name="description">rRENhonJURI&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_295"/>
@@ -4962,7 +4962,7 @@
       <field name="name">R REN EXTERIOR Honorarios; persona natural; Tarifa 10%</field>
       <field name="description">rRENhonJURI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_296"/>
@@ -4975,7 +4975,7 @@
       <field name="name">R REN PARAISO Honorarios; persona natural</field>
       <field name="description">rRENhonJURI&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_297"/>
@@ -4988,7 +4988,7 @@
       <field name="name">R REN C Honorarios; persona juridica</field>
       <field name="description">rRENhonJURI&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236515"/>
       <field name="credit_note_account" ref="co_puc_236515"/>
       <field name="invoice_base_code" ref="tag_298"/>
@@ -5001,7 +5001,7 @@
       <field name="name">R REN V Honorarios; persona juridica</field>
       <field name="description">rRENhonJURI&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_299"/>
@@ -5014,7 +5014,7 @@
       <field name="name">R REN EXTERIOR Honorarios; persona juridica</field>
       <field name="description">rRENhonJURI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_300"/>
@@ -5027,7 +5027,7 @@
       <field name="name">R REN PARAISO Honorarios; persona juridica</field>
       <field name="description">rRENhonJURI&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_301"/>
@@ -5040,7 +5040,7 @@
       <field name="name">AR REN - Honorarios; persona juridica ASIMUDO</field>
       <field name="description">rRENhonJURI&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('11')" name="rate"/>
+      <field eval="Decimal('0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_302"/>
@@ -5053,7 +5053,7 @@
       <field name="name">AR REN - Honorarios; persona juridica CONTRAPARTIDA</field>
       <field name="description">rRENhonJURI&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_303"/>
@@ -5066,7 +5066,7 @@
       <field name="name">R REN C Comisiones; persona natural; Tarifa 11%</field>
       <field name="description">rRENcmsNATU&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236520"/>
       <field name="credit_note_account" ref="co_puc_236520"/>
       <field name="invoice_base_code" ref="tag_305"/>
@@ -5079,7 +5079,7 @@
       <field name="name">R REN V Comisiones; persona natural; Tarifa 11%</field>
       <field name="description">rRENcmsNATU&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_306"/>
@@ -5092,7 +5092,7 @@
       <field name="name">R REN EXTERIOR Comisiones; persona natural; Tarifa 11%</field>
       <field name="description">rRENcmsNATU&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_307"/>
@@ -5105,7 +5105,7 @@
       <field name="name">R REN PARAISO Comisiones; persona natural</field>
       <field name="description">rRENcmsNATU&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_308"/>
@@ -5118,7 +5118,7 @@
       <field name="name">R REN C Comisiones; persona natural; Tarifa 10%</field>
       <field name="description">rRENcmsJURI&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236520"/>
       <field name="credit_note_account" ref="co_puc_236520"/>
       <field name="invoice_base_code" ref="tag_309"/>
@@ -5131,7 +5131,7 @@
       <field name="name">R REN V Comisiones; persona natural; Tarifa 10%</field>
       <field name="description">rRENcmsJURI&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_310"/>
@@ -5144,7 +5144,7 @@
       <field name="name">R REN EXTERIOR Comisiones; persona natural; Tarifa 10%</field>
       <field name="description">rRENcmsJURI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_311"/>
@@ -5157,7 +5157,7 @@
       <field name="name">R REN C Comisiones; persona juridica</field>
       <field name="description">rRENcmsJURI&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236520"/>
       <field name="credit_note_account" ref="co_puc_236520"/>
       <field name="invoice_base_code" ref="tag_312"/>
@@ -5170,7 +5170,7 @@
       <field name="name">R REN V Comisiones; persona juridica</field>
       <field name="description">rRENcmsJURI&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_313"/>
@@ -5183,7 +5183,7 @@
       <field name="name">R REN EXTERIOR Comisiones; persona juridica</field>
       <field name="description">rRENcmsJURI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_314"/>
@@ -5196,7 +5196,7 @@
       <field name="name">R REN PARAISO Comisiones; persona juridica</field>
       <field name="description">rRENcmsJURI&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_315"/>
@@ -5209,7 +5209,7 @@
       <field name="name">AR REN - Comisiones; persona juridica ASIMUDO</field>
       <field name="description">rRENcmsJURI&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('11')" name="rate"/>
+      <field eval="Decimal('0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_316"/>
@@ -5222,7 +5222,7 @@
       <field name="name">AR REN - Comisiones; persona juridica CONTRAPARTIDA</field>
       <field name="description">rRENcmsJURI&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-11')" name="rate"/>
+      <field eval="Decimal('-0.11')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_317"/>
@@ -5235,7 +5235,7 @@
       <field name="name">AR REN - Rendimiento de instrumentos financieros y derivados  ASIMUDO</field>
       <field name="description">rRENrenFINA&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_319"/>
@@ -5248,7 +5248,7 @@
       <field name="name">AR REN - Rendimiento de instrumentos financieros y derivados  CONTRAPARTIDA</field>
       <field name="description">rRENrenFINA&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_320"/>
@@ -5261,7 +5261,7 @@
       <field name="name">AR REN - Rendimiento de mutuo comercial  ASIMUDO</field>
       <field name="description">rRENrenMUTU&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_322"/>
@@ -5274,7 +5274,7 @@
       <field name="name">AR REN - Rendimiento de mutuo comercial  CONTRAPARTIDA</field>
       <field name="description">rRENrenMUTU&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_323"/>
@@ -5287,7 +5287,7 @@
       <field name="name">R REN C Loterías, Rifas, Apuestas y similares</field>
       <field name="description">rRENazaRIFA&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-20')" name="rate"/>
+      <field eval="Decimal('-0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236545"/>
       <field name="credit_note_account" ref="co_puc_236545"/>
       <field name="invoice_base_code" ref="tag_325"/>
@@ -5300,7 +5300,7 @@
       <field name="name">R REN V Loterías, Rifas, Apuestas y similares</field>
       <field name="description">rRENazaRIFA&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-20')" name="rate"/>
+      <field eval="Decimal('-0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_326"/>
@@ -5313,7 +5313,7 @@
       <field name="name">R REN EXTERIOR Loterías, Rifas, Apuestas y similares</field>
       <field name="description">rRENazaRIFA&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-20')" name="rate"/>
+      <field eval="Decimal('-0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_327"/>
@@ -5326,7 +5326,7 @@
       <field name="name">R REN PARAISO Loterías, Rifas, Apuestas y similares</field>
       <field name="description">rRENazaRIFA&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_328"/>
@@ -5339,7 +5339,7 @@
       <field name="name">AR REN - Loterías, Rifas, Apuestas y similares ASIMUDO</field>
       <field name="description">rRENazaRIFA&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('20')" name="rate"/>
+      <field eval="Decimal('0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_329"/>
@@ -5352,7 +5352,7 @@
       <field name="name">AR REN - Loterías, Rifas, Apuestas y similares CONTRAPARTIDA</field>
       <field name="description">rRENazaRIFA&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-20')" name="rate"/>
+      <field eval="Decimal('-0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_330"/>
@@ -5365,7 +5365,7 @@
       <field name="name">R REN C Otras Compras; declarantes</field>
       <field name="description">rRENcmpOTROd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_332"/>
@@ -5378,7 +5378,7 @@
       <field name="name">R REN V Otras Compras; declarantes</field>
       <field name="description">rRENcmpOTROd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_333"/>
@@ -5391,7 +5391,7 @@
       <field name="name">R REN EXTERIOR Otras Compras; declarantes</field>
       <field name="description">rRENcmpOTROd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_334"/>
@@ -5404,7 +5404,7 @@
       <field name="name">R REN PARAISO Otras Compras; declarantes</field>
       <field name="description">rRENcmpOTROd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_335"/>
@@ -5417,7 +5417,7 @@
       <field name="name">AR REN - Otras Compras; declarantes ASIMUDO</field>
       <field name="description">rRENcmpOTROd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_336"/>
@@ -5430,7 +5430,7 @@
       <field name="name">AR REN - Otras Compras; declarantes CONTRAPARTIDA</field>
       <field name="description">rRENcmpOTROd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_337"/>
@@ -5443,7 +5443,7 @@
       <field name="name">R REN C Otras Compras; no declarantes</field>
       <field name="description">rRENcmpOTROn&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236570"/>
       <field name="credit_note_account" ref="co_puc_236570"/>
       <field name="invoice_base_code" ref="tag_339"/>
@@ -5456,7 +5456,7 @@
       <field name="name">R REN V Otras Compras; no declarantes</field>
       <field name="description">rRENcmpOTROn&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_340"/>
@@ -5469,7 +5469,7 @@
       <field name="name">R REN EXTERIOR Otras Compras; no declarantes</field>
       <field name="description">rRENcmpOTROn&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_341"/>
@@ -5482,7 +5482,7 @@
       <field name="name">R REN PARAISO Otras Compras; no declarantes</field>
       <field name="description">rRENcmpOTROn&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_342"/>
@@ -5495,7 +5495,7 @@
       <field name="name">R REN C Otros ingresos; declarantes</field>
       <field name="description">rRENotrINGRd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236570"/>
       <field name="credit_note_account" ref="co_puc_236570"/>
       <field name="invoice_base_code" ref="tag_343"/>
@@ -5508,7 +5508,7 @@
       <field name="name">R REN V Otros ingresos; declarantes</field>
       <field name="description">rRENotrINGRd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_344"/>
@@ -5521,7 +5521,7 @@
       <field name="name">R REN EXTERIOR Otros ingresos; declarantes</field>
       <field name="description">rRENotrINGRd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_345"/>
@@ -5534,7 +5534,7 @@
       <field name="name">R REN PARAISO Otros ingresos; declarantes</field>
       <field name="description">rRENotrINGRd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_346"/>
@@ -5547,7 +5547,7 @@
       <field name="name">AR REN - Otros ingresos; declarantes ASIMUDO</field>
       <field name="description">rRENotrINGRd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_347"/>
@@ -5560,7 +5560,7 @@
       <field name="name">AR REN - Otros ingresos; declarantes CONTRAPARTIDA</field>
       <field name="description">rRENotrINGRd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_348"/>
@@ -5573,7 +5573,7 @@
       <field name="name">R REN C Otros ingresos; no declarantes</field>
       <field name="description">rRENotrINGRn&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236570"/>
       <field name="credit_note_account" ref="co_puc_236570"/>
       <field name="invoice_base_code" ref="tag_350"/>
@@ -5586,7 +5586,7 @@
       <field name="name">R REN V Otros ingresos; no declarantes</field>
       <field name="description">rRENotrINGRn&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_351"/>
@@ -5599,7 +5599,7 @@
       <field name="name">R REN EXTERIOR Otros ingresos; no declarantes</field>
       <field name="description">rRENotrINGRn&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_352"/>
@@ -5612,7 +5612,7 @@
       <field name="name">R REN PARAISO Otros ingresos; no declarantes</field>
       <field name="description">rRENotrINGRn&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_353"/>
@@ -5625,7 +5625,7 @@
       <field name="name">R REN EXTERIOR Pago al exterior por arrendamiento de maquinaria para construcción, reparación y mantenimiento de obras civiles </field>
       <field name="description">rRENpagARRI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_354"/>
@@ -5638,7 +5638,7 @@
       <field name="name">R REN PARAISO Pago al exterior por arrendamiento de maquinaria para construcción, reparación y mantenimiento de obras civiles </field>
       <field name="description">rRENpagARRI&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_355"/>
@@ -5651,7 +5651,7 @@
       <field name="name">R REN C Emolumentos eclesiásticos; persona natural; declarante</field>
       <field name="description">rRENotrECLEd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_356"/>
@@ -5664,7 +5664,7 @@
       <field name="name">R REN V Emolumentos eclesiásticos; persona natural; declarante</field>
       <field name="description">rRENotrECLEd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_357"/>
@@ -5677,7 +5677,7 @@
       <field name="name">R REN EXTERIOR Emolumentos eclesiásticos; persona natural; declarante</field>
       <field name="description">rRENotrECLEd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_358"/>
@@ -5690,7 +5690,7 @@
       <field name="name">R REN PARAISO Emolumentos eclesiásticos; persona natural; declarante</field>
       <field name="description">rRENotrECLEd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_359"/>
@@ -5703,7 +5703,7 @@
       <field name="name">R REN C Emolumentos eclesiásticos; persona natural; no declarante</field>
       <field name="description">rRENotrECLEn&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236540"/>
       <field name="credit_note_account" ref="co_puc_236540"/>
       <field name="invoice_base_code" ref="tag_360"/>
@@ -5716,7 +5716,7 @@
       <field name="name">R REN V Emolumentos eclesiásticos; persona natural; no declarante</field>
       <field name="description">rRENotrECLEn&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_361"/>
@@ -5729,7 +5729,7 @@
       <field name="name">R REN EXTERIOR Emolumentos eclesiásticos; persona natural; no declarante</field>
       <field name="description">rRENotrECLEn&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3.5')" name="rate"/>
+      <field eval="Decimal('-0.035')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_362"/>
@@ -5742,7 +5742,7 @@
       <field name="name">R REN PARAISO Emolumentos eclesiásticos; persona natural; no declarante</field>
       <field name="description">rRENotrECLEn&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_363"/>
@@ -5755,7 +5755,7 @@
       <field name="name">R REN C Rendimientos Financieros Provenientes de títulos de renta fija</field>
       <field name="description">rRENrenFIJO&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236535"/>
       <field name="credit_note_account" ref="co_puc_236535"/>
       <field name="invoice_base_code" ref="tag_364"/>
@@ -5768,7 +5768,7 @@
       <field name="name">R REN V Rendimientos Financieros Provenientes de títulos de renta fija</field>
       <field name="description">rRENrenFIJO&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_365"/>
@@ -5781,7 +5781,7 @@
       <field name="name">R REN EXTERIOR Rendimientos Financieros Provenientes de títulos de renta fija</field>
       <field name="description">rRENrenFIJO&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_366"/>
@@ -5794,7 +5794,7 @@
       <field name="name">R REN PARAISO Rendimientos Financieros Provenientes de títulos de renta fija</field>
       <field name="description">rRENrenFIJO&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_367"/>
@@ -5807,7 +5807,7 @@
       <field name="name">AR REN - Rendimientos Financieros Provenientes de títulos de renta fija ASIMUDO</field>
       <field name="description">rRENrenFIJO&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('4')" name="rate"/>
+      <field eval="Decimal('0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_368"/>
@@ -5820,7 +5820,7 @@
       <field name="name">AR REN - Rendimientos Financieros Provenientes de títulos de renta fija CONTRAPARTIDA</field>
       <field name="description">rRENrenFIJO&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_369"/>
@@ -5833,7 +5833,7 @@
       <field name="name">R REN C Retención en colocación independiente de juegos de suerte y azar </field>
       <field name="description">rRENazaINDE&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236545"/>
       <field name="credit_note_account" ref="co_puc_236545"/>
       <field name="invoice_base_code" ref="tag_371"/>
@@ -5846,7 +5846,7 @@
       <field name="name">R REN V Retención en colocación independiente de juegos de suerte y azar </field>
       <field name="description">rRENazaINDE&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_372"/>
@@ -5859,7 +5859,7 @@
       <field name="name">R REN EXTERIOR Retención en colocación independiente de juegos de suerte y azar </field>
       <field name="description">rRENazaINDE&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_373"/>
@@ -5872,7 +5872,7 @@
       <field name="name">R REN PARAISO Retención en colocación independiente de juegos de suerte y azar </field>
       <field name="description">rRENazaINDE&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_374"/>
@@ -5885,7 +5885,7 @@
       <field name="name">AR REN - Retención en colocación independiente de juegos de suerte y azar  ASIMUDO</field>
       <field name="description">rRENazaINDE&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('3')" name="rate"/>
+      <field eval="Decimal('0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_375"/>
@@ -5898,7 +5898,7 @@
       <field name="name">AR REN - Retención en colocación independiente de juegos de suerte y azar  CONTRAPARTIDA</field>
       <field name="description">rRENazaINDE&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-3')" name="rate"/>
+      <field eval="Decimal('-0.03')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_376"/>
@@ -5911,7 +5911,7 @@
       <field name="name">R REN C (ET383) PM efectuados a la categoría de empleados</field>
       <field name="description">rRENsalE383&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0')" name="rate"/>
+      <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236505"/>
       <field name="credit_note_account" ref="co_puc_236505"/>
       <field name="invoice_base_code" ref="tag_378"/>
@@ -5924,7 +5924,7 @@
       <field name="name">R REN C (ET383) Pagos gravables, originados en la relación laboral o legal y reglamentaria.</field>
       <field name="description">rRENsalR383&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0')" name="rate"/>
+      <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236505"/>
       <field name="credit_note_account" ref="co_puc_236505"/>
       <field name="invoice_base_code" ref="tag_379"/>
@@ -5937,7 +5937,7 @@
       <field name="name">R REN C (ET383) Indemnizaciones derivadas de una relación laboral, legal o reglamentaria superiores a 20.000 UVT </field>
       <field name="description">rRENsalI383&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-20')" name="rate"/>
+      <field eval="Decimal('-0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236505"/>
       <field name="credit_note_account" ref="co_puc_236505"/>
       <field name="invoice_base_code" ref="tag_380"/>
@@ -5950,7 +5950,7 @@
       <field name="name">R REN C (ET384) PM efectuados a la categoría de empleados</field>
       <field name="description">rRENsalE384&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0')" name="rate"/>
+      <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236505"/>
       <field name="credit_note_account" ref="co_puc_236505"/>
       <field name="invoice_base_code" ref="tag_381"/>
@@ -5963,7 +5963,7 @@
       <field name="name">R REN C (ET384) Pagos gravables, originados en la relación laboral o legal y reglamentaria.</field>
       <field name="description">rRENsalR384&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('0')" name="rate"/>
+      <field eval="Decimal('0.0')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236505"/>
       <field name="credit_note_account" ref="co_puc_236505"/>
       <field name="invoice_base_code" ref="tag_382"/>
@@ -5976,7 +5976,7 @@
       <field name="name">R REN C (ET384) Indemnizaciones derivadas de una relación laboral, legal o reglamentaria superiores a 20.000 UVT </field>
       <field name="description">rRENsalI384&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-20')" name="rate"/>
+      <field eval="Decimal('-0.2')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236505"/>
       <field name="credit_note_account" ref="co_puc_236505"/>
       <field name="invoice_base_code" ref="tag_383"/>
@@ -5989,7 +5989,7 @@
       <field name="name">R REN C Servicios de aseo y vigilancia (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserVIGI&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_384"/>
@@ -6002,7 +6002,7 @@
       <field name="name">R REN V Servicios de aseo y vigilancia (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserVIGI&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_385"/>
@@ -6015,7 +6015,7 @@
       <field name="name">R REN EXTERIOR Servicios de aseo y vigilancia (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserVIGI&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_386"/>
@@ -6028,7 +6028,7 @@
       <field name="name">R REN PARAISO Servicios de aseo y vigilancia (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserVIGI&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_387"/>
@@ -6041,7 +6041,7 @@
       <field name="name">AR REN - Servicios de aseo y vigilancia (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT) ASIMUDO</field>
       <field name="description">rRENserVIGI&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2')" name="rate"/>
+      <field eval="Decimal('0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_388"/>
@@ -6054,7 +6054,7 @@
       <field name="name">AR REN - Servicios de aseo y vigilancia (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT) CONTRAPARTIDA</field>
       <field name="description">rRENserVIGI&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2')" name="rate"/>
+      <field eval="Decimal('-0.02')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_389"/>
@@ -6067,7 +6067,7 @@
       <field name="name">R REN C Servicios de hoteles, restaurantes y hospedajes; declarante</field>
       <field name="description">rRENserRESTd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_391"/>
@@ -6080,7 +6080,7 @@
       <field name="name">R REN V Servicios de hoteles, restaurantes y hospedajes; declarante</field>
       <field name="description">rRENserRESTd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_392"/>
@@ -6093,7 +6093,7 @@
       <field name="name">R REN EXTERIOR Servicios de hoteles, restaurantes y hospedajes; declarante</field>
       <field name="description">rRENserRESTd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_393"/>
@@ -6106,7 +6106,7 @@
       <field name="name">R REN PARAISO Servicios de hoteles, restaurantes y hospedajes; declarante</field>
       <field name="description">rRENserRESTd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_394"/>
@@ -6119,7 +6119,7 @@
       <field name="name">AR REN - Servicios de hoteles, restaurantes y hospedajes; declarante ASIMUDO</field>
       <field name="description">rRENserRESTd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_395"/>
@@ -6132,7 +6132,7 @@
       <field name="name">AR REN - Servicios de hoteles, restaurantes y hospedajes; declarante CONTRAPARTIDA</field>
       <field name="description">rRENserRESTd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_396"/>
@@ -6145,7 +6145,7 @@
       <field name="name">R REN C Servicios de transporte nacional de carga</field>
       <field name="description">rRENserTCARG&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_398"/>
@@ -6158,7 +6158,7 @@
       <field name="name">R REN V Servicios de transporte nacional de carga</field>
       <field name="description">rRENserTCARG&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_399"/>
@@ -6171,7 +6171,7 @@
       <field name="name">R REN EXTERIOR Servicios de transporte nacional de carga</field>
       <field name="description">rRENserTCARG&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_400"/>
@@ -6184,7 +6184,7 @@
       <field name="name">R REN PARAISO Servicios de transporte nacional de carga</field>
       <field name="description">rRENserTCARG&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_401"/>
@@ -6197,7 +6197,7 @@
       <field name="name">AR REN - Servicios de transporte nacional de carga ASIMUDO</field>
       <field name="description">rRENserTCARG&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('1')" name="rate"/>
+      <field eval="Decimal('0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_402"/>
@@ -6210,7 +6210,7 @@
       <field name="name">AR REN - Servicios de transporte nacional de carga CONTRAPARTIDA</field>
       <field name="description">rRENserTCARG&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_403"/>
@@ -6223,7 +6223,7 @@
       <field name="name">R REN C Servicios de transporte terrestre nacional de pasajeros; declarante</field>
       <field name="description">rRENserTPERSd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_405"/>
@@ -6236,7 +6236,7 @@
       <field name="name">R REN V Servicios de transporte terrestre nacional de pasajeros; declarante</field>
       <field name="description">rRENserTPERSd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_406"/>
@@ -6249,7 +6249,7 @@
       <field name="name">R REN EXTERIOR Servicios de transporte terrestre nacional de pasajeros; declarante</field>
       <field name="description">rRENserTPERSd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_407"/>
@@ -6262,7 +6262,7 @@
       <field name="name">R REN PARAISO Servicios de transporte terrestre nacional de pasajeros; declarante</field>
       <field name="description">rRENserTPERSd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_408"/>
@@ -6275,7 +6275,7 @@
       <field name="name">AR REN - Servicios de transporte terrestre nacional de pasajeros; declarante ASIMUDO</field>
       <field name="description">rRENserTPERSd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('2.5')" name="rate"/>
+      <field eval="Decimal('0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_409"/>
@@ -6288,7 +6288,7 @@
       <field name="name">AR REN - Servicios de transporte terrestre nacional de pasajeros; declarante CONTRAPARTIDA</field>
       <field name="description">rRENserTPERSd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-2.5')" name="rate"/>
+      <field eval="Decimal('-0.025')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_410"/>
@@ -6301,7 +6301,7 @@
       <field name="name">R REN C Servicios en general; declarante</field>
       <field name="description">rRENserGENEd&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_412"/>
@@ -6314,7 +6314,7 @@
       <field name="name">R REN V Servicios en general; declarante</field>
       <field name="description">rRENserGENEd&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_413"/>
@@ -6327,7 +6327,7 @@
       <field name="name">R REN EXTERIOR Servicios en general; declarante</field>
       <field name="description">rRENserGENEd&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_414"/>
@@ -6340,7 +6340,7 @@
       <field name="name">R REN PARAISO Servicios en general; declarante</field>
       <field name="description">rRENserGENEd&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_415"/>
@@ -6353,7 +6353,7 @@
       <field name="name">AR REN - Servicios en general; declarante ASIMUDO</field>
       <field name="description">rRENserGENEd&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('4')" name="rate"/>
+      <field eval="Decimal('0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_416"/>
@@ -6366,7 +6366,7 @@
       <field name="name">AR REN - Servicios en general; declarante CONTRAPARTIDA</field>
       <field name="description">rRENserGENEd&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-4')" name="rate"/>
+      <field eval="Decimal('-0.04')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_417"/>
@@ -6379,7 +6379,7 @@
       <field name="name">R REN C Servicios en general; persona natural; no declarante</field>
       <field name="description">rRENserGENEn&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_419"/>
@@ -6392,7 +6392,7 @@
       <field name="name">R REN V Servicios en general; persona natural; no declarante</field>
       <field name="description">rRENserGENEn&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_420"/>
@@ -6405,7 +6405,7 @@
       <field name="name">R REN EXTERIOR Servicios en general; persona natural; no declarante</field>
       <field name="description">rRENserGENEn&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_421"/>
@@ -6418,7 +6418,7 @@
       <field name="name">R REN PARAISO Servicios en general; persona natural; no declarante</field>
       <field name="description">rRENserGENEn&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_422"/>
@@ -6431,7 +6431,7 @@
       <field name="name">R REN C Servicios temporales de empleo (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserTEMP&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_423"/>
@@ -6444,7 +6444,7 @@
       <field name="name">R REN V Servicios temporales de empleo (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserTEMP&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_424"/>
@@ -6457,7 +6457,7 @@
       <field name="name">R REN EXTERIOR Servicios temporales de empleo (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserTEMP&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-1')" name="rate"/>
+      <field eval="Decimal('-0.01')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_425"/>
@@ -6470,7 +6470,7 @@
       <field name="name">R REN PARAISO Servicios temporales de empleo (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT)</field>
       <field name="description">rRENserTEMP&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_426"/>
@@ -6483,7 +6483,7 @@
       <field name="name">AR REN - Servicios temporales de empleo (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT) ASIMUDO</field>
       <field name="description">rRENserTEMP&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('10')" name="rate"/>
+      <field eval="Decimal('0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_427"/>
@@ -6496,7 +6496,7 @@
       <field name="name">AR REN - Servicios temporales de empleo (la base será el 100% del A.I.U. siempre que sea mayor o igual a 4 UVT) CONTRAPARTIDA</field>
       <field name="description">rRENserTEMP&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-10')" name="rate"/>
+      <field eval="Decimal('-0.1')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_428"/>
@@ -6509,7 +6509,7 @@
       <field name="name">R REN C Servicios de sísmica para el sector de hidrocarburos; declarante</field>
       <field name="description">rRENserSISM&gt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236525"/>
       <field name="credit_note_account" ref="co_puc_236525"/>
       <field name="invoice_base_code" ref="tag_430"/>
@@ -6522,7 +6522,7 @@
       <field name="name">R REN V Servicios de sísmica para el sector de hidrocarburos; declarante</field>
       <field name="description">rRENserSISM&lt;</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_135515"/>
       <field name="credit_note_account" ref="co_puc_135515"/>
       <field name="invoice_base_code" ref="tag_431"/>
@@ -6535,7 +6535,7 @@
       <field name="name">R REN EXTERIOR Servicios de sísmica para el sector de hidrocarburos; declarante</field>
       <field name="description">rRENserSISM&gt;EX</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_432"/>
@@ -6548,7 +6548,7 @@
       <field name="name">R REN PARAISO Servicios de sísmica para el sector de hidrocarburos; declarante</field>
       <field name="description">rRENserSISM&gt;PF</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-33')" name="rate"/>
+      <field eval="Decimal('-0.33')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236550"/>
       <field name="credit_note_account" ref="co_puc_236550"/>
       <field name="invoice_base_code" ref="tag_433"/>
@@ -6561,7 +6561,7 @@
       <field name="name">AR REN - Servicios de sísmica para el sector de hidrocarburos; declarante ASIMUDO</field>
       <field name="description">rRENserSISM&lt;AR\</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('6')" name="rate"/>
+      <field eval="Decimal('0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_236575"/>
       <field name="credit_note_account" ref="co_puc_236575"/>
       <field name="invoice_base_code" ref="tag_434"/>
@@ -6574,7 +6574,7 @@
       <field name="name">AR REN - Servicios de sísmica para el sector de hidrocarburos; declarante CONTRAPARTIDA</field>
       <field name="description">rRENserSISM&lt;AR/</field>
       <field name="type">percentage</field>
-      <field eval="Decimal('-6')" name="rate"/>
+      <field eval="Decimal('-0.06')" name="rate"/>
       <field name="invoice_account" ref="co_puc_521595"/>
       <field name="credit_note_account" ref="co_puc_521595"/>
       <field name="invoice_base_code" ref="tag_435"/>
