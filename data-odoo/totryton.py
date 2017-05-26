@@ -21,6 +21,11 @@ ODOO_TO_TRYTON_ACCOUNT_TYPE = {
     'account.data_account_type_direct_costs': 'account_type_direct_costs',
 }
 
+EXTRA_ACCOUNT_TYPE = {
+    '130505': {'party_required': {'eval': 'True'}},
+    '220505': {'party_required': {'eval': 'True'}}
+}
+
 def parse_csv(filename):
     with open(filename) as f:
         reader = csv.reader(f)
@@ -85,7 +90,11 @@ for row in parse_csv('account.account.template.csv'):
     fields['parent'] = {'ref': row['id'][0:8]}
     for k in fields:
         cfield(record, k, fields[k])
-        
+
+    if row['code'] in EXTRA_ACCOUNT_TYPE:
+        for k in EXTRA_ACCOUNT_TYPE[row['code']]:
+            cfield(record, k, EXTRA_ACCOUNT_TYPE[row['code']][k])
+            
 with open('accounts.xml', 'w') as f:
     f.write(prettyprint(trytonaccounts))
     
@@ -127,7 +136,7 @@ for row in parse_csv('account.tax.template.csv'):
     if amount_type == 'percent':
         cfield(record,'type', 'percentage')
         amount = float(row['amount']) / 100
-        cfield(record, 'rate', {'eval': "Decimal('{}')".format(row['amount'])})
+        cfield(record, 'rate', {'eval': "Decimal('{}')".format(amount)})
     else:
         raise RuntimeError("unknown amount type {}".format(amount_type))
 

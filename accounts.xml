@@ -1117,6 +1117,7 @@
       <field name="type" ref="account_type_receivable"/>
       <field eval="True" name="reconcile"/>
       <field name="parent" ref="co_puc_1"/>
+      <field eval="True" name="party_required"/>
     </record>
     <record id="co_puc_130510" model="account.account.template">
       <field name="name">del exterior</field>
@@ -5536,6 +5537,7 @@
       <field name="type" ref="account_type_payable"/>
       <field eval="True" name="reconcile"/>
       <field name="parent" ref="co_puc_2"/>
+      <field eval="True" name="party_required"/>
     </record>
     <record id="co_puc_221005" model="account.account.template">
       <field name="name">del exterior</field>
