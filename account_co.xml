@@ -2,6 +2,13 @@
 <tryton>
   <data>
 
+    <!-- open  create  chart wizard after install-->
+    <record model="ir.module.config_wizard.item" id="config_wizard_item_account_co_create_chart">
+      <field name="action" ref="account.wizard_create_chart"/>
+    </record>
+    
+    
+    <!-- Accounts and Taxs -->
     <record model="account.account.type.template" id="co">
       <field name="name">Colombian Account Type Chart</field>
       <field name="sequence" eval="10"/>

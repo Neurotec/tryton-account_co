@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<tryton>
+  <data noupdate="1">
+    <!--
+	no se puede habilitar arroja:
+	trytond.exceptions.UserError: The value of the field "Default Credit Account" on "Journal Account" is not valid according to its domain. -
+	segun el mensaje es por domain la expresion pide un contexto
+    -->
+    <!--
+    <record model="account.journal" id="journal_revenue">
+      <field name="credit_account" ref="co_puc_413595" />
+      <field name="debit_account" ref="co_puc_413595" />
+    </record>
+
+    <record model="account.journal" id="journal_expense">
+      <field name="credit_account" ref="co_puc_613595" />
+      <field name="debit_account" ref="co_puc_613595" />
+    </record>
+    <record model="account.journal" id="journal_cash">
+      <field name="credit_account" ref="co_puc_110501" />
+      <field name="debit_account" ref="co_puc_110501" />
+    </record>-->
+  </data>
+</tryton>
